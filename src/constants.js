@@ -30,7 +30,8 @@ import SscLogo from './assets/education_logo/ssc.png';
 
 // Project Section Logo's
 import portfolioLogo from './assets/work_logo/portfolio.png';
-import csprepLogo from './assets/work_logo/cs_prep.png';
+import collageLogo from './assets/work_logo/collageweb.png';
+import tradingLogo from './assets/work_logo/trading.png';
 
 
 export const SkillsInfo = [
@@ -132,22 +133,32 @@ export const SkillsInfo = [
   export const projects = [
     {
       id: 0,
-      title: "Personal Portfolio Website",
+      title: "Personal Portfolio Website (Frontend)",
       description:
         "A clean and responsive personal portfolio built with React.js to showcase my projects, skills, and experience. It highlights my work, provides contact information, and serves as an online resume for recruiters and collaborators.",
       image: portfolioLogo,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "https://github.com/codingmastr/GitHub-Profile-Search-App-Using-React-JS",
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "API", "Tailwind css"],
+      github: "https://github.com/rushikeshade2005/My-Personal-Portfolio-Website",
       webapp: "",
     },
     {
       id: 1,
-      title: "CS Prep",
+      title: "Collage Club Website (Full Stack)",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
-      image: csprepLogo,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/codingmastr/CSPrep",
-      webapp: "https://csprep.netlify.app/",
+        " The College Club Website is a dynamic platform designed to showcase and manage various student clubs and events within a college. It allows users to explore clubs, view upcoming events, and participate through a clean, interactive interface. Built using HTML, CSS, JavaScript, Node.js, and MongoDB, it streamlines student engagement and club coordination",
+      image: collageLogo,
+      tags: ["EJS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript","Bootstrap"],
+      github: "",
+      webapp: "",
+    },
+    {
+      id: 2,
+      title: "Stock Trading PlatForm (Frontend)",
+      description:
+        " The Stock Trading Platform (Frontend) is a responsive web interface for simulating stock trading activities. It includes features like stock charts, order placement, and portfolio tracking. Built using HTML, CSS, JavaScript, React.js, and Bootstrap, it offers a sleek and user-friendly experience across devices.",
+      image: tradingLogo,
+      tags: ["HTML", "CSS", "JavaScript", "React JS", "BootStrap"],
+      github: "",
+      webapp: "",
     },
   ];  
